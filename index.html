@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Cabin:ital,wght@0,400..700;1,400..700&family=Itim&family=Lora:ital,wght@0,400..700;1,400..700&family=Protest+Revolution&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Itim&family=Lora:ital,wght@0,400..700;1,400..700&family=Protest+Revolution&display=swap"
+        rel="stylesheet">
+    <!-- defer serve para que o codigo seja executado antes do carregamento da pagina -->
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <header>
+        <button class="bazuka" onclick="alternarModo()">Mudar Tema</button>
+    </header>
+
+    <div class="videofundo">
+        <video autoplay loop muted>
+            <source src="https://cdn.pixabay.com/video/2024/06/02/214940_large.mp4" type="video/mp4">
+        </video>
+    </div>
+<!-- 
+    <div class="videofundotwo">
+        <video autoplay loop muted>
+            <source src="https://cdn.pixabay.com/video/2019/11/19/29238-374487175_large.mp4" type="video/mp4">
+        </video>
+    </div> -->
+
+
+    <h1>Calculadora</h1>
+
+    <div id="calculadora">
+        <input type="text" name="" id="display" disabled>
+        <br>
+        <button id="ac" class="operador">AC</button>
+        <button id="del" class="operador">DEL</button>
+        <button id="." class="operador">.</button>
+        <button id="/" class="operador">/</button>
+        <br>
+        <button id="7">7</button>
+        <button id="8">8</button>
+        <button id="9">9</button>
+        <button id="*" class="operador">X</button>
+        <br>
+        <button id="4">4</button>
+        <button id="5">5</button>
+        <button id="6">6</button>
+        <button id="-" class="operador">-</button>
+        <br>
+        <button id="1">1</button>
+        <button id="2">2</button>
+        <button id="3">3</button>
+        <button id="+" class="operador">+</button>
+        <br>
+        <button id="00">00</button>
+        <button id="0">0</button>
+        <button id=".">.</button>
+        <button id="=" class="operador igual">=</button>
+        <br>
+    </div>
+    <footer>
+        <p>&copy;Todos os Direitos Reservados | Salazar</p>
+    </footer>
+
+
+
+</body>
+
+</html>
